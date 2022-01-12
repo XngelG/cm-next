@@ -1,0 +1,41 @@
+.main{
+  background-color: rgb(32, 44, 57);
+  height: 100vh;
+  color: rgb(252, 250, 249);
+  overflow: scroll;
+  display: flex;
+  justify-content: center;
+}
+
+.innerContent{
+  width: 90%;
+}
+
+.item{
+  background-color:rgb(120, 138, 163) ;
+  cursor: pointer;
+  padding: 24px;
+  margin-top: 24px;
+  display: grid;
+  grid-template-columns: 1fr 11fr;
+}
+
+.rightItems{
+  margin-left: 24px;
+}
+
+.leftItems{
+  margin:auto;
+}
+
+.img{
+  border-radius: 100%;
+  -webkit-border-radius:100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius:100%;
+  -o-border-radius:100%;
+}
+
+.dateStyle{
+  padding-left: 12px;
+}
